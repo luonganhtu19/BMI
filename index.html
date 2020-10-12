@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI</title>
+
+</head>
+<body >
+<form style="border: 1px solid black;display: inline-block" >
+    <table>
+        <tr>
+            <td><label for="wieght1">Weight of You</label></td>
+            <td><label for="hight1">Hight of You</label>
+        </tr>
+        <tr>
+            <td><input type="text" id="wieght1" onchange="check()" placeholder="0">m</td>
+            <td><input type="text" id="hight1" onchange="check()" placeholder="0">kg</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            <p style="color: red">Result: <span id="valueCheck"></span></p>
+            </td>
+        </tr>
+    </table>
+</form>
+<script src="checkBMI.js"></script>
+</body>
+</html>
